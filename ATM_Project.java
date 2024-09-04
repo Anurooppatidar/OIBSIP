@@ -104,7 +104,7 @@ public class ATM_Project {
                         System.out.println("--------------------------------------------------------------------------------------");
                         break;
                     case 2:
-                        System.out.println("Enter amount to Withdraw: Rs");
+                        System.out.println("Enter Amount To Withdraw: Rs");
                         double withdrawAmount = scan.nextDouble();
                         account.deposit(withdrawAmount);
                         System.out.println("--------------------------------------------------------------------------------------");
@@ -116,9 +116,9 @@ public class ATM_Project {
                         System.out.println("--------------------------------------------------------------------------------------");
                         break;
                     case 4:
-                        System.out.println("Enter recipient User ID:");
+                        System.out.println("Enter Recipient User ID:");
                         String recipientId = scan.next();
-                        System.out.println("Enter amount to transfer : Rs");
+                        System.out.println("Enter Amount To Transfer : Rs");
                         double transferAmount = scan.nextDouble();
                         Account recipient = new Account(recipientId, "");
                         account.transfer(recipient, transferAmount);
@@ -130,7 +130,7 @@ public class ATM_Project {
                         scan.close();
 
                     default:
-                        System.out.println("Invalid choice .");
+                        System.out.println("Invalid Choice .");
                 }
 
             }
