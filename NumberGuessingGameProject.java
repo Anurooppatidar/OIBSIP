@@ -14,12 +14,12 @@ public class NumberGuessingGameProject {
         int guess;
         int attempts = 0;
 
-        System.out.println("Welcome to the Number Guessing Game!!! ");
-        System.out.println("I am picked a number betweem " + lowerBound + " and " + upperBound);
+        System.out.println("Welcome To The Number Guessing Game!!! ");
+        System.out.println("I am Picked a Number Betweem " + lowerBound + " and " + upperBound);
 
         try {
             do {
-                System.out.println("Enter your guess::");
+                System.out.println("Enter Your Guess::");
                 guess = scan.nextInt();
                 attempts++;
 
