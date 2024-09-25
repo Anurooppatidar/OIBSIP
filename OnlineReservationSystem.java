@@ -63,7 +63,7 @@ public class OnlineReservationSystem {
          }
 
          public String getjourneyDate(){
-            System.out.println("Enter the Journey date as 'DD-MM=YYYY' Format::");
+            System.out.println("Enter the Journey Date as 'DD-MM=YYYY' Format::");
              journeyData =scan.nextLine();
              return journeyData;
          }
@@ -110,7 +110,7 @@ public class OnlineReservationSystem {
                 newRecord.from = p1.getfrom();
                 newRecord.to = p1.getto();
                 pnrMap.put(pnr_number, newRecord);
-                System.out.println("Records added Succesfully..");
+                System.out.println("Records Added Succesfully..");
                 
             }else if (choice == 2) {
                 System.out.println("Enter the PNR  Number to delete the record::");
