@@ -32,7 +32,7 @@ public class NumberGuessingGameProject {
 
             } while (guess != randomNumber);
             System.out.println(
-                    "Congratulation! You guessed the number " + randomNumber + "correctly in" + attempts + "attempts.");
+                    "Congratulation! You guessed the number " + randomNumber + " correctly in " + attempts + " attempts.");
 
         } catch (Exception e) {
             System.out.println("Enter a number! Characters are not allowed.");
